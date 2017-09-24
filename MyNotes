@@ -1,0 +1,10 @@
+The order of what I did to get this working is strange, but I'm working on windows
+I have a Cloudcannon id, sign-in with Dropbox
+On Cloudcannon - create new site and connect it to dropbox - dropbox will create a empty folder for the site backup
+On cloudcannon - choose a template - it will sinc to the previously empty dropbox folder
+From dropbox - download the folder to a zip file of the jekyll site
+upzip the site
+create a repository on github
+create a gitinore - chose jekyll
+upload the unzipped files
+setup - github pages from master branch
